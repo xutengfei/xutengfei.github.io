@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Blizzard]]></title>
-  <link href="http://xutengfei.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Asdf | Blizzard]]></title>
+  <link href="http://xutengfei.github.io/blog/categories/asdf/atom.xml" rel="self"/>
   <link href="http://xutengfei.github.io/"/>
   <updated>2014-07-28T04:38:42+08:00</updated>
   <id>http://xutengfei.github.io/</id>

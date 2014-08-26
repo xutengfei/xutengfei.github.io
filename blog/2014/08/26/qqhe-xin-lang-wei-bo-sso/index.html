@@ -5,15 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>测试文章 - Blizzard</title>
+  <title>QQ和新浪微博SSO - Blizzard</title>
   <meta name="author" content="补碗">
 
   
-  <meta name="description" content="
-niasdfas
-sadfasdf
-asdfasdf
-sdfasdf asdfasdfdsf 111111 ">
+  <meta name="description" content="最近公司APP项目需要做QQ和新浪的联合登录，这里面有好些个费神的地方。
+网站需要和APP打通，那么微博和QQ的客户端appkey需要和网站保持一致。
+微博：客户端的appkey是可以给网站用的，但是网站的appkey，客户端用不了
+QQ：客户端和网站的appkey是分开管理的，这里面的坑在于， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +21,7 @@ sdfasdf asdfasdfdsf 111111 ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://xutengfei.github.io/blog/2014/07/28/ce-shi-wen-zhang">
+  <link rel="canonical" href="http://xutengfei.github.io/blog/2014/08/26/qqhe-xin-lang-wei-bo-sso">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Blizzard" type="application/atom+xml">
@@ -72,7 +71,7 @@ sdfasdf asdfasdfdsf 111111 ">
   
   <header>
     
-      <h1 class="entry-title">测试文章</h1>
+      <h1 class="entry-title">QQ和新浪微博SSO</h1>
     
     
       <p class="meta">
@@ -88,30 +87,40 @@ sdfasdf asdfasdfdsf 111111 ">
   
 
 
-<time datetime="2014-07-28T02:54:54+08:00" pubdate data-updated="true">Jul 28<sup>th</sup>, 2014</time>
+<time datetime="2014-08-26T22:40:37+08:00" pubdate data-updated="true">Aug 26<sup>th</sup>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><ul>
-<li>niasdfas</li>
-<li>sadfasdf</li>
-<li>asdfasdf</li>
-<li>sdfasdf</li>
-</ul>
+<div class="entry-content"><p>最近公司APP项目需要做QQ和新浪的联合登录，这里面有好些个费神的地方。
+网站需要和APP打通，那么微博和QQ的客户端appkey需要和网站保持一致。
+微博：客户端的appkey是可以给网站用的，但是网站的appkey，客户端用不了
+QQ：客户端和网站的appkey是分开管理的，这里面的坑在于，给客户端和网站生产相同的appkey。过程是，先QQ互联注册网站应用，然后去QQ开放平台注册手机应用，注意，这个过程中不要生成新应用，而是选择已注册过的appid，正确填入参数后，会生成和网站appkey一样的移动应用。（我花了2天时间，试验了无数次才发现这个啊，血和泪）
+接下是110406这个返回码。。</p>
 
+<hr />
 
-<!-- more -->
+<p><img src="http://tengfei-blog.qiniudn.com/201408qqerrorcode.png" title="Title here" alt="asdf" /></p>
 
+<p>引发原因是未上线应用，没使用协作测试账号登录。（不过我添加了账号，依旧返回这个，缓存？生效时间？没有结论！）后来，我直接把应用申请上线，通过后，就没这个返回码了。</p>
 
-<h2>asdfasdfdsf</h2>
+<hr />
 
-<ul>
-<li>111111</li>
-</ul>
+<p><img src="http://tengfei-blog.qiniudn.com/201408yingyongbao.png" title="Title here" alt="asdf" />
+接下来又被QQ折磨了，有用腾讯贱贱把所有开放平台安卓应用导向应用宝平台，我们之前已经在应用宝上线，导致我们新的客户端appkey无法绑定</p>
 
+<pre><code>sadfsa
+asdf
+</code></pre>
+
+<p>asdfsadf</p>
+
+<pre><code>fsadf
+Indent each line by at least 1 tab, or 4 spaces.
+var Mou = exactlyTheAppIwant; 
+</code></pre>
 </div>
 
 
@@ -134,14 +143,8 @@ sdfasdf asdfasdfdsf 111111 ">
   
 
 
-<time datetime="2014-07-28T02:54:54+08:00" pubdate data-updated="true">Jul 28<sup>th</sup>, 2014</time>
+<time datetime="2014-08-26T22:40:37+08:00" pubdate data-updated="true">Aug 26<sup>th</sup>, 2014</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/asdf/'>asdf</a>, <a class='category' href='/blog/categories/ddd/'>ddd</a>
-  
-</span>
 
 
     </p>
@@ -155,8 +158,8 @@ sdfasdf asdfasdfdsf 111111 ">
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2014/07/28/ce-shi-wen-zhang/" title="Previous Post: 测试文章">&laquo; 测试文章</a>
       
-        <a class="basic-alignment right" href="/blog/2014/08/26/qqhe-xin-lang-wei-bo-sso/" title="Next Post: QQ和新浪微博SSO">QQ和新浪微博SSO &raquo;</a>
       
     </p>
   </footer>

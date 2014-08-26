@@ -4,7 +4,7 @@
   <title><![CDATA[Blizzard]]></title>
   <link href="http://xutengfei.github.io/atom.xml" rel="self"/>
   <link href="http://xutengfei.github.io/"/>
-  <updated>2014-07-28T04:38:42+08:00</updated>
+  <updated>2014-08-27T01:07:06+08:00</updated>
   <id>http://xutengfei.github.io/</id>
   <author>
     <name><![CDATA[补碗]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[QQ和新浪微博SSO]]></title>
+    <link href="http://xutengfei.github.io/blog/2014/08/26/qqhe-xin-lang-wei-bo-sso/"/>
+    <updated>2014-08-26T22:40:37+08:00</updated>
+    <id>http://xutengfei.github.io/blog/2014/08/26/qqhe-xin-lang-wei-bo-sso</id>
+    <content type="html"><![CDATA[<p>最近公司APP项目需要做QQ和新浪的联合登录，这里面有好些个费神的地方。
+网站需要和APP打通，那么微博和QQ的客户端appkey需要和网站保持一致。
+微博：客户端的appkey是可以给网站用的，但是网站的appkey，客户端用不了
+QQ：客户端和网站的appkey是分开管理的，这里面的坑在于，给客户端和网站生产相同的appkey。过程是，先QQ互联注册网站应用，然后去QQ开放平台注册手机应用，注意，这个过程中不要生成新应用，而是选择已注册过的appid，正确填入参数后，会生成和网站appkey一样的移动应用。（我花了2天时间，试验了无数次才发现这个啊，血和泪）
+接下是110406这个返回码。。</p>
+
+<hr />
+
+<p><img src="http://tengfei-blog.qiniudn.com/201408qqerrorcode.png" title="Title here" alt="asdf" /></p>
+
+<p>引发原因是未上线应用，没使用协作测试账号登录。（不过我添加了账号，依旧返回这个，缓存？生效时间？没有结论！）后来，我直接把应用申请上线，通过后，就没这个返回码了。</p>
+
+<hr />
+
+<p><img src="http://tengfei-blog.qiniudn.com/201408yingyongbao.png" title="Title here" alt="asdf" />
+接下来又被QQ折磨了，有用腾讯贱贱把所有开放平台安卓应用导向应用宝平台，我们之前已经在应用宝上线，导致我们新的客户端appkey无法绑定</p>
+
+<pre><code>sadfsa
+asdf
+</code></pre>
+
+<p>asdfsadf</p>
+
+<pre><code>fsadf
+Indent each line by at least 1 tab, or 4 spaces.
+var Mou = exactlyTheAppIwant; 
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[测试文章]]></title>

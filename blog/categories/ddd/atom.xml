@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ddd | Blizzard]]></title>
-  <link href="http://xutengfei.github.io/blog/categories/ddd/atom.xml" rel="self"/>
-  <link href="http://xutengfei.github.io/"/>
-  <updated>2014-08-27T01:23:02+08:00</updated>
-  <id>http://xutengfei.github.io/</id>
+  <link href="http://blog.tengfei.biz/blog/categories/ddd/atom.xml" rel="self"/>
+  <link href="http://blog.tengfei.biz/"/>
+  <updated>2014-09-03T16:39:49+08:00</updated>
+  <id>http://blog.tengfei.biz/</id>
   <author>
     <name><![CDATA[补碗]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[测试文章]]></title>
-    <link href="http://xutengfei.github.io/blog/2014/07/28/ce-shi-wen-zhang/"/>
+    <link href="http://blog.tengfei.biz/blog/2014/07/28/ce-shi-wen-zhang/"/>
     <updated>2014-07-28T02:54:54+08:00</updated>
-    <id>http://xutengfei.github.io/blog/2014/07/28/ce-shi-wen-zhang</id>
+    <id>http://blog.tengfei.biz/blog/2014/07/28/ce-shi-wen-zhang</id>
     <content type="html"><![CDATA[<ul>
 <li>niasdfas</li>
 <li>sadfasdf</li>

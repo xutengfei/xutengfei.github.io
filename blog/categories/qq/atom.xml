@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Blizzard]]></title>
-  <link href="http://blog.tengfei.biz/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Qq | Blizzard]]></title>
+  <link href="http://blog.tengfei.biz/blog/categories/qq/atom.xml" rel="self"/>
   <link href="http://blog.tengfei.biz/"/>
   <updated>2014-09-03T16:39:49+08:00</updated>
   <id>http://blog.tengfei.biz/</id>
@@ -44,31 +44,6 @@
 <h3>总结</h3>
 
 <p>一定要在项目开始前尽量想周密一点。。注册移动应用，就顺便把网站应用也注册下，保持相同的appkey。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[测试文章]]></title>
-    <link href="http://blog.tengfei.biz/blog/2014/07/28/ce-shi-wen-zhang/"/>
-    <updated>2014-07-28T02:54:54+08:00</updated>
-    <id>http://blog.tengfei.biz/blog/2014/07/28/ce-shi-wen-zhang</id>
-    <content type="html"><![CDATA[<ul>
-<li>niasdfas</li>
-<li>sadfasdf</li>
-<li>asdfasdf</li>
-<li>sdfasdf</li>
-</ul>
-
-
-<!-- more -->
-
-
-<h2>asdfasdfdsf</h2>
-
-<ul>
-<li>111111</li>
-</ul>
-
 ]]></content>
   </entry>
   

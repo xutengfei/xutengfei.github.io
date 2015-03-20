@@ -4,7 +4,7 @@
   <title><![CDATA[Blizzard]]></title>
   <link href="http://blog.tengfei.biz/atom.xml" rel="self"/>
   <link href="http://blog.tengfei.biz/"/>
-  <updated>2015-03-03T17:06:18+08:00</updated>
+  <updated>2015-03-21T02:07:31+08:00</updated>
   <id>http://blog.tengfei.biz/</id>
   <author>
     <name><![CDATA[补碗]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Test]]></title>
+    <link href="http://blog.tengfei.biz/blog/2015/03/21/test/"/>
+    <updated>2015-03-21T02:02:27+08:00</updated>
+    <id>http://blog.tengfei.biz/blog/2015/03/21/test</id>
+    <content type="html"><![CDATA[<h4>hi</h4>
+
+<ul>
+<li>hi</li>
+<li>hi</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Test]]></title>

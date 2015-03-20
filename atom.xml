@@ -4,7 +4,7 @@
   <title><![CDATA[Blizzard]]></title>
   <link href="http://blog.tengfei.biz/atom.xml" rel="self"/>
   <link href="http://blog.tengfei.biz/"/>
-  <updated>2015-03-21T02:07:31+08:00</updated>
+  <updated>2015-03-21T03:01:57+08:00</updated>
   <id>http://blog.tengfei.biz/</id>
   <author>
     <name><![CDATA[补碗]]></name>
@@ -12,46 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Test]]></title>
-    <link href="http://blog.tengfei.biz/blog/2015/03/21/test/"/>
-    <updated>2015-03-21T02:02:27+08:00</updated>
-    <id>http://blog.tengfei.biz/blog/2015/03/21/test</id>
-    <content type="html"><![CDATA[<h4>hi</h4>
-
-<ul>
-<li>hi</li>
-<li>hi</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Test]]></title>
-    <link href="http://blog.tengfei.biz/blog/2015/03/03/test/"/>
-    <updated>2015-03-03T17:06:04+08:00</updated>
-    <id>http://blog.tengfei.biz/blog/2015/03/03/test</id>
-    <content type="html"><![CDATA[<ul>
-<li>niasdfas</li>
-<li>sadfasdf</li>
-<li>asdfasdf</li>
-<li>sdfasdf</li>
-</ul>
-
-
-<!-- more -->
-
-
-<h2>asdfasdfdsf</h2>
-
-<ul>
-<li>111111</li>
-</ul>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[QQ和新浪微博SSO]]></title>
@@ -84,31 +44,6 @@
 <h3>总结</h3>
 
 <p>一定要在项目开始前尽量想周密一点。。注册移动应用，就顺便把网站应用也注册下，保持相同的appkey。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[测试文章]]></title>
-    <link href="http://blog.tengfei.biz/blog/2014/07/28/ce-shi-wen-zhang/"/>
-    <updated>2014-07-28T02:54:54+08:00</updated>
-    <id>http://blog.tengfei.biz/blog/2014/07/28/ce-shi-wen-zhang</id>
-    <content type="html"><![CDATA[<ul>
-<li>niasdfas</li>
-<li>sadfasdf</li>
-<li>asdfasdf</li>
-<li>sdfasdf</li>
-</ul>
-
-
-<!-- more -->
-
-
-<h2>asdfasdfdsf</h2>
-
-<ul>
-<li>111111</li>
-</ul>
-
 ]]></content>
   </entry>
   

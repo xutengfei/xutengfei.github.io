@@ -4,7 +4,7 @@
   <title><![CDATA[Blizzard]]></title>
   <link href="http://blog.tengfei.biz/atom.xml" rel="self"/>
   <link href="http://blog.tengfei.biz/"/>
-  <updated>2015-03-21T03:01:57+08:00</updated>
+  <updated>2015-08-07T00:15:40+08:00</updated>
   <id>http://blog.tengfei.biz/</id>
   <author>
     <name><![CDATA[补碗]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[谁该关注这个号]]></title>
+    <link href="http://blog.tengfei.biz/blog/2015/08/06/shui-gai-guan-zhu-zhe-ge-hao/"/>
+    <updated>2015-08-06T21:09:59+08:00</updated>
+    <id>http://blog.tengfei.biz/blog/2015/08/06/shui-gai-guan-zhu-zhe-ge-hao</id>
+    <content type="html"><![CDATA[<p>“怎么悟”这么名字想了很久，开始是想用“CTO成长日记”，但是未来公众号不能改名字，想了一想，太片面了，怎么能情商这么低，我又不是纯技术男。</p>
+
+<h4>那么问题来了，这里会写点啥呢。。</h4>
+
+<ul>
+<li>回忆下从大三开始的5年多的创业历程，偶尔找点有价值的东西。</li>
+<li>三成技术分享，以实践为前提，没经历过得验证过得，我基本不去说。我是个务实的人，不爱BB理论（此号偶尔爆粗，我会适当用**代替）。</li>
+<li>七成人生感悟，mark点东西，等未来回忆。性格偏执，觉得和自己想法差不多的叫共鸣，差很多的叫“你错了”。同时，别担心我，真错了我会很快证明你是错的。</li>
+</ul>
+
+
+<h4>谁该关注这号呢。。</h4>
+
+<ul>
+<li>CEO、CTO、C*O,技术Leader，程序员，普通人，大体是路过的人吧。。</li>
+<li>创业人要关注，5年创业公司滚打的历史，N次的血泪，会让你少走很多弯路，也许是少走死路</li>
+<li>普通人要关注，告诉怎么变强，怎么逆境求生。</li>
+</ul>
+
+
+<h4>我干过啥。。</h4>
+
+<ul>
+<li>多年创业史，悟性不错，洞察力不错。</li>
+<li>多次临危受命，救项目于水火。</li>
+<li>破坏式推进，置之死地而后生。</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[QQ和新浪微博SSO]]></title>

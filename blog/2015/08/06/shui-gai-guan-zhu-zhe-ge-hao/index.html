@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blizzard</title>
+  <title>谁该关注这个号 - Blizzard</title>
   <meta name="author" content="补碗">
 
   
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.tengfei.biz">
+  <link rel="canonical" href="http://blog.tengfei.biz/blog/2015/08/06/shui-gai-guan-zhu-zhe-ge-hao">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Blizzard" type="application/atom+xml">
@@ -64,15 +64,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/08/06/shui-gai-guan-zhu-zhe-ge-hao/">谁该关注这个号</a></h1>
+      <h1 class="entry-title">谁该关注这个号</h1>
     
     
       <p class="meta">
@@ -95,7 +92,7 @@
   </header>
 
 
-  <div class="entry-content"><p>“怎么悟”这么名字想了很久，开始是想用“CTO成长日记”，但是未来公众号不能改名字，想了一想，太片面了，怎么能情商这么低，我又不是纯技术男。</p>
+<div class="entry-content"><p>“怎么悟”这么名字想了很久，开始是想用“CTO成长日记”，但是未来公众号不能改名字，想了一想，太片面了，怎么能情商这么低，我又不是纯技术男。</p>
 
 <h4>那么问题来了，这里会写点啥呢。。</h4>
 
@@ -124,22 +121,16 @@
 </ul>
 
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/26/qqhe-xin-lang-wei-bo-sso/">QQ和新浪微博SSO</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">补碗</span></span>
+
+      
 
 
 
@@ -151,52 +142,63 @@
   
 
 
-<time datetime="2014-08-26T22:40:37+08:00" pubdate data-updated="true">Aug 26<sup>th</sup>, 2014</time>
-        
-      </p>
+<time datetime="2015-08-06T21:09:59+08:00" pubdate data-updated="true">Aug 6<sup>th</sup>, 2015</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/why/'>why</a>
+  
+</span>
+
+
+<p class="meta">
+      原创文章，版权声明：自由转载-非商用-非衍生-保持署名 | <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" id="">Creative Commons BY-NC-ND 3.0</a>
+</p>
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>最近公司APP项目需要做QQ和新浪的联合登录，这里面有好些个费神的地方。
-网站需要和APP打通，那么微博和QQ的客户端appkey需要和网站保持一致。</p>
-
-<h3>新浪微博</h3>
-
-<p>客户端的appkey是可以给网站用的，但是网站的appkey，客户端用不了</p>
-
-<h3>QQ</h3>
-
-<p>客户端和网站的appkey是分开管理的，这里面的坑在于，给客户端和网站生产相同的appkey。过程是，先QQ互联注册网站应用，然后去QQ开放平台注册手机应用，注意，这个过程中不要生成新应用，而是选择已注册过的appid，正确填入参数后，会生成和网站appkey一样的移动应用。（我花了2天时间，试验了无数次才发现这个啊，血和泪）
-接下是110406这个返回码。。</p>
-
-<p><img src="http://tengfei-blog.qiniudn.com/201408qqerrorcode.png" title="Title here" alt="asdf" /></p>
-
-<p>引发原因是未上线应用，没使用协作测试账号登录。（不过我添加了账号，依旧返回这个，缓存？生效时间？没有结论！）后来，我直接把应用申请上线，通过后，就没这个返回码了。</p>
-
-<hr />
-
-<p><img src="http://tengfei-blog.qiniudn.com/201408yingyongbao.png" title="Title here" alt="asdf" /></p>
-
-<p>接下来又被QQ折磨了，由于腾讯贱贱把所有开放平台安卓应用导向应用宝平台，我们之前已经在应用宝上线，导致我们新申请的应用无法绑定原有package name。
-开发移动平台应用不提供删除接口，和客服磨了2天之后找到一个折衷办法，把已经上线的app应用迁移到我个人账号下，这样，就可以把原来的安卓apk提交到我们新注册的app应用。</p>
-
-<h3>总结</h3>
-
-<p>一定要在项目开始前尽量想周密一点。。注册移动应用，就顺便把网站应用也注册下，保持相同的appkey。</p>
+      <div class="sharing">
+  
+  
+  
 </div>
-  
-  
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/08/26/qqhe-xin-lang-wei-bo-sso/" title="Previous Post: QQ和新浪微博SSO">&laquo; QQ和新浪微博SSO</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+
+  <section>
+    <div id="comments" aria-live="polite"><!-- 多说评论框 start -->
+	<div class="ds-thread" data-title="谁该关注这个号" ></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"tengfeibiz"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
 </div>
+  </section>
+
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -220,6 +222,7 @@
 
   
 </aside>
+
 
     </div>
   </div>
